@@ -218,6 +218,62 @@ section {
     color: var(--secondary-text);
 }
 
+/* =========================
+   App Cards
+   ========================= */
+
+.app-card {
+    padding: 28px;
+    background: var(--surface);
+    border-radius: 14px;
+    margin-bottom: 20px;
+}
+
+.app-card-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 18px;
+}
+
+.app-card-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 13px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.app-card-header h3 {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.app-card-subtitle {
+    margin: 3px 0 0;
+    color: var(--secondary-text);
+    font-size: 0.95rem;
+}
+
+.app-card > p {
+    color: var(--secondary-text);
+}
+
+.app-card .button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 18px;
+    background: var(--text);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 7px;
+    font-weight: 500;
+}
+
+.app-card .button:hover {
+    background: #000000;
+    text-decoration: none;
+}
 
 /* =========================
    Information Cards
