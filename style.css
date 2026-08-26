@@ -85,19 +85,27 @@ a:hover {
     font-weight: 700;
 }
 
+.brand-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.hero-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 22px;
+    border-radius: 18px;
+    object-fit: cover;
+    display: block;
+}
+
 /* Hero */
 
 .hero {
     text-align: center;
     padding: 85px 0 70px;
-}
-
-.hero .brand-mark {
-    width: 64px;
-    height: 64px;
-    margin: 0 auto 22px;
-    border-radius: 16px;
-    font-size: 1.4rem;
 }
 
 .hero h1 {
