@@ -435,3 +435,36 @@ section {
         flex-wrap: wrap;
     }
 }
+
+/* =========================
+   App icon placeholder
+   ========================= */
+
+.app-card-icon-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--text);
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+
+/* =========================
+   Music symbol used when an
+   app icon is not yet provided
+   ========================= */
+
+.hero-music-symbol {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 22px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--text);
+    color: #ffffff;
+    font-size: 2.8rem;
+}
